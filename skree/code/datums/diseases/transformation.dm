@@ -16,7 +16,6 @@
 	new_form = /mob/living/simple_animal/hostile/lizard
 	var/datum/species/lizard/lizard = new /datum/species/lizard()
 
-
 /datum/disease/transformation/lizard/stage_act()
 	..()
 	switch(stage)
