@@ -33,7 +33,7 @@ Once you mirror a file, please follow the above for marking your changes, this w
 
 ### tgstation.dme versus skree.dme
 
-Do not alter the tgstation.dme file. All additions and removals should be to the sunsetstation.dme file. Do not manually add files to the dme! Check the file's box in the Dream Maker program. The Dream Maker does not always use alphabetical order, and manually adding a file can cause it to reorder. This means that down the line, many PRs will contain this reorder when it could have been avoided in the first place.
+Do not alter the tgstation.dme file. All additions and removals should be to the skree.dme file. Do not manually add files to the dme! Check the file's box in the Dream Maker program. The Dream Maker does not always use alphabetical order, and manually adding a file can cause it to reorder. This means that down the line, many PRs will contain this reorder when it could have been avoided in the first place.
 
 ### Icons, code, and sounds
 
@@ -53,7 +53,7 @@ New clothing items should be a subtype of "/obj/item/clothing/CLOTHINGTYPE/skree
 
 ### Actions and spells
 
-New actions and spells should use the "skree/icons/mob/actions.dmi" file. If it is a spell, put the code for the spell in "skree/code/modules/spells." To make sure that the spell uses the sunset icon, please add "action_icon = 'skree/icons/mob/actions.dmi'" and the "action_icon_state" var.
+New actions and spells should use the "skree/icons/mob/actions.dmi" file. If it is a spell, put the code for the spell in "skree/code/modules/spells." To make sure that the spell uses the skree icon, please add "action_icon = 'skree/icons/mob/actions.dmi'" and the "action_icon_state" var.
 
 ### Reagents
 
