@@ -517,7 +517,7 @@
 					/obj/item/clothing/gloves/combat)
 	crate_name = "swat crate"
 
-	
+
 /datum/supply_pack/security/armory/wt550
 	name = "WT-550 Auto Rifle Crate"
 	desc = "Contains two high-powered, semiautomatic rifles chambered in 4.6x30mm. Requires Armory access to open."
