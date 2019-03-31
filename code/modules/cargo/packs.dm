@@ -525,6 +525,7 @@
 					/obj/item/gun/ballistic/automatic/wt550)
 	crate_name = "auto rifle crate"
 
+	
 /datum/supply_pack/security/armory/wt550ammo
 	name = "WT-550 Auto Rifle Ammo Crate"
 	desc = "Contains four 20-round magazines for the WT-550 Auto Rifle. Each magazine is designed to facilitate rapid tactical reloads. Requires Armory access to open."
