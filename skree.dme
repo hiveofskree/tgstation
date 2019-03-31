@@ -2797,4 +2797,6 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "skree\code\datums\diseases\transformation.dm"
+#include "skree\code\modules\cargo\packs.dm"
 // END_INCLUDE
