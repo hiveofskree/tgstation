@@ -2797,6 +2797,11 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "skree\code\datums\action.dm"
 #include "skree\code\datums\diseases\transformation.dm"
+#include "skree\code\game\objects\items\stunbaton.dm"
+#include "skree\code\game\objects\items\holotool\holotool.dm"
+#include "skree\code\game\objects\items\holotool\modes.dm"
 #include "skree\code\modules\cargo\packs.dm"
+#include "skree\code\modules\clothing\nanosuit.dm"
 // END_INCLUDE
