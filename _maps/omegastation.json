@@ -1,6 +1,6 @@
 {
     "map_name": "OmegaStation",
-    "map_path": "/_maps/map_files/OmegaStation",
+    "map_path": "skree/_maps/map_files/OmegaStation",
     "map_file": "OmegaStation.dmm",
     "shuttles": {
 	    "emergency": "emergency_omega",
