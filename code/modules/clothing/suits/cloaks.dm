@@ -32,7 +32,6 @@
 	name = "chief engineer's cloak"
 	desc = "Worn by Engitopia, wielders of an unlimited power."
 	icon_state = "cecloak"
-	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/neck/cloak/rd
 	name = "research director's cloak"

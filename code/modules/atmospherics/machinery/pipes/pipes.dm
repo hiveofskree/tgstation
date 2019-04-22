@@ -51,9 +51,6 @@
 /obj/machinery/atmospherics/pipe/return_air()
 	return parent.air
 
-/obj/machinery/atmospherics/pipe/return_analyzable_air()
-	return parent.air
-
 /obj/machinery/atmospherics/pipe/remove_air(amount)
 	return parent.air.remove(amount)
 
@@ -64,6 +61,9 @@
 		meter.setAttachLayer(piping_layer)
 	else
 		return ..()
+
+/obj/machinery/atmospherics/pipe/analyzer_act(mob/living/user, obj/item/I)
+	atmosanalyzer_scan(parent.air, user, src)
 
 /obj/machinery/atmospherics/pipe/returnPipenet()
 	return parent

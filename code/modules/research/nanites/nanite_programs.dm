@@ -86,8 +86,7 @@
 	target.deactivation_code = deactivation_code
 	target.kill_code = kill_code
 	target.trigger_code = trigger_code
-	if(istype(target,src))
-		copy_extra_settings_to(target)
+	copy_extra_settings_to(target)
 
 /datum/nanite_program/proc/set_extra_setting(user, setting)
 	return

@@ -112,6 +112,9 @@
 
 		qdel(src)
 
+/obj/item/tank/analyzer_act(mob/living/user, obj/item/I)
+	atmosanalyzer_scan(air_contents, user, src)
+
 /obj/item/tank/deconstruct(disassembled = TRUE)
 	if(!disassembled)
 		var/turf/T = get_turf(src)
@@ -203,9 +206,6 @@
 	return air_contents.remove(amount)
 
 /obj/item/tank/return_air()
-	return air_contents
-
-/obj/item/tank/return_analyzable_air()
 	return air_contents
 
 /obj/item/tank/assume_air(datum/gas_mixture/giver)

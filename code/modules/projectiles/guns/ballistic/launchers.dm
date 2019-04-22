@@ -60,7 +60,6 @@
 	internal_magazine = TRUE
 	cartridge_wording = "rocket"
 	empty_indicator = TRUE
-	tac_reloads = FALSE
 
 /obj/item/gun/ballistic/rocketlauncher/unrestricted
 	pin = /obj/item/firing_pin
@@ -100,3 +99,4 @@
 
 
 
+	

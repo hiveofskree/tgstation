@@ -483,14 +483,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Atmospherics Engine"
 	icon_state = "atmos_engine"
 
-/area/engine/engine_room //donut station specific
-	name = "Engine Room"
-	icon_state = "atmos_engine"
-
-/area/engine/engine_room/external
-	name = "Supermatter External Access"
-	icon_state = "engine_foyer"
-
 /area/engine/supermatter
 	name = "Supermatter Engine"
 	icon_state = "engine_sm"

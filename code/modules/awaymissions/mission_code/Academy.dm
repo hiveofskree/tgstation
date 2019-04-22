@@ -217,7 +217,6 @@
 		if(1)
 			//Dust
 			T.visible_message("<span class='userdanger'>[user] turns to dust!</span>")
-			user.hellbound = TRUE
 			user.dust()
 		if(2)
 			//Death
@@ -321,7 +320,7 @@
 		if(17)
 			//Tator Kit
 			T.visible_message("<span class='userdanger'>A suspicious box appears!</span>")
-			new /obj/item/storage/box/syndicate/bundle_A(drop_location())
+			new /obj/item/storage/box/syndicate(drop_location())
 			do_smoke(0, drop_location())
 		if(18)
 			//Captain ID

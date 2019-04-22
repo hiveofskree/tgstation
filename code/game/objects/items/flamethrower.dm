@@ -129,11 +129,10 @@
 	else
 		return ..()
 
-/obj/item/flamethrower/return_analyzable_air()
+/obj/item/flamethrower/analyzer_act(mob/living/user, obj/item/I)
 	if(ptank)
-		return ptank.return_analyzable_air()
-	else
-		return null
+		ptank.analyzer_act(user, I)
+
 
 /obj/item/flamethrower/attack_self(mob/user)
 	toggle_igniter(user)

@@ -40,7 +40,7 @@
 	icon_state = "ice_2"
 	damage = 0
 	damage_type = BURN
-	nodamage = TRUE
+	nodamage = 1
 	flag = "energy"
 	temperature = 50
 

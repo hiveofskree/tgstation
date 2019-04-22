@@ -120,7 +120,6 @@
 	if(!canmove)
 		return
 	vehicle_move(direction)
-	return TRUE
 
 /obj/vehicle/proc/vehicle_move(direction)
 	if(lastmove + movedelay > world.time)

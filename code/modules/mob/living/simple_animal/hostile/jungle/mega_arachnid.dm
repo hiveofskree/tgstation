@@ -50,7 +50,7 @@
 
 /obj/item/projectile/mega_arachnid
 	name = "flesh snare"
-	nodamage = TRUE
+	nodamage = 1
 	damage = 0
 	icon_state = "tentacle_end"
 

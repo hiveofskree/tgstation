@@ -78,7 +78,6 @@
 	default_storage = null
 	default_hatmask = null
 	picked = TRUE
-	flavortext = null
 
 /mob/living/simple_animal/drone/polymorphed/Initialize()
 	. = ..()

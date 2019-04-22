@@ -39,7 +39,7 @@
 	. = ..()
 
 	area.lightswitch = !area.lightswitch
-	area.update_icon()
+	area.updateicon()
 
 	for(var/obj/machinery/light_switch/L in area)
 		L.update_icon()

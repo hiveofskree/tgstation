@@ -107,7 +107,7 @@ Slimecrossing Weapons
 	icon_state = "pulse0_bl"
 	damage = 0
 	damage_type = OXY
-	nodamage = TRUE
+	nodamage = 1
 	hitsound = 'sound/effects/splat.ogg'
 
 /obj/item/projectile/magic/bloodchill/on_hit(mob/living/target)
